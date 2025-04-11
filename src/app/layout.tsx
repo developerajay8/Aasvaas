@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Gojuris",
+  title: "Aasvaa",
   description: "India's First AI Powered Legal Research Assistant",
 };
 
