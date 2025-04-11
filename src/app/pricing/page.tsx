@@ -157,7 +157,7 @@ export default function NewsPage() {
                   {item.contentdesc2 && <li>{item.contentdesc2}</li>}
                   {item.contentdesc3 && <li>{item.contentdesc3}</li>}
                   </ul>
-                  <ul className="list-disc pl-[50px] pt-[4px] text-[#007AFF] text-[14px] ">
+                  <ul className="list-disc pl-[50px] pt-[4px] text-[#343434] text-[14px] ">
                   {item.contentsecondbluetext && <li>{item.contentsecondbluetext}</li>}
                  
                   </ul>

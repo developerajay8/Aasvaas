@@ -26,11 +26,11 @@ export default function Page() {
 
   return (
     <div className="">
-      <div className="bg-[#fff] sm:block hidden">
+      <div className="bg-[#fff] sm:block hidden ">
         <div className=" max-w-[1440px] mx-auto  items-center flex justify-between">
           <div className="">
             <Link href="/">
-            <Image src={Header} alt="logo" />
+            <Image src={Header} alt="logo" className=" px-[16px]"/>
             </Link>
             {/* <img src="./assets/logo.png" alt="" /> */}
           </div>
