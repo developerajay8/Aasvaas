@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { IoMenu, IoClose } from "react-icons/io5";
-import { GoArrowUpRight } from "react-icons/go";
+// import { GoArrowUpRight } from "react-icons/go";
 import Header from "../../../../public/assets/Black.png";
 import Header2 from "../../../../public/assets/Vector.svg";
 import Header3 from "../../../../public/assets/Group.svg";
