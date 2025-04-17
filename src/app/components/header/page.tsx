@@ -30,7 +30,7 @@ export default function Page() {
         <div className=" max-w-[1440px] mx-auto  items-center flex justify-between">
           <div className="">
             <Link href="/">
-            <Image src={Header} alt="logo" className=" px-[16px]"/>
+            <Image src={Header} alt="logo" className=" py-[16px] px-[16px]"/>
             </Link>
             {/* <img src="./assets/logo.png" alt="" /> */}
           </div>
@@ -74,7 +74,7 @@ export default function Page() {
       </div>
 
       <div className="bg-[#fff] sm:hidden block">
-        <div className="max-w-[993px] mx-auto p-0 m-0 items-center justify-between flex">
+        <div className="max-w-[993px] mx-auto py-[4px] p-0 m-0 items-center justify-between flex">
           {/* Left Section - Logo & Menu */}
           <div className="flex bg-[#] items-center gap-2">
             {/* Hamburger Menu Button */}
@@ -87,7 +87,7 @@ export default function Page() {
             {/* Logo */}
             <div className="bg-white">
             <Link href="/">
-              <Image src={Header4} className="ml-3 w-10 h-10" alt="logo"  />
+              <Image src={Header4} className="ml-3 w-10 h-10 " alt="logo"  />
               </Link>
               {/* <img src="./assets/mobilelogo.png" className="ml-2" alt="" /> */}
             </div>
@@ -185,7 +185,7 @@ export default function Page() {
             <Image src={Header6} alt="" className="md:block hidden"/>
             <Image src={Header62} alt="" className="md:hidden block" />
           </div> */}
-          <div className="md:block hidden ">
+          <div className=" ">
           <ul className=" flex justify-center  items-center gap-[10px] lg:gap-10 xl:gap-14 py-[16px]">
             <li
               className="rounded-[4px] text-white hover:text-[#2D9CDB] scroll-smooth text-[12px] lg:text-[18px] px-[10px] ">
