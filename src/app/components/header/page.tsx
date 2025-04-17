@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { IoMenu, IoClose } from "react-icons/io5";
 import { GoArrowUpRight } from "react-icons/go";
-import Header from "../../../../public/assets/Group 44 (3).png";
+import Header from "../../../../public/assets/Black.png";
 import Header2 from "../../../../public/assets/Vector.svg";
 import Header3 from "../../../../public/assets/Group.svg";
 import Header4 from "../../../../public/assets/Group 44 (2).png";
@@ -36,11 +36,11 @@ export default function Page() {
           </div>
           <div className="flex items-center gap-6">
             <ul className="flex items-center gap-8">
-              <Link href="/">
+              {/* <Link href="/">
                 <li className="flex py-[8px] px-[20px] text-[14px] text-[#ffffff] bg-[#2D9CDB]  font-[600]">
                   Try Chat <GoArrowUpRight className="text-[20px] ml-2" />
                 </li>
-              </Link>
+              </Link> */}
 
               <li className="text-[#1B1B1B] text-[18px] font-[400] hover:text-[#2D9CDB] duration-700">
                 <Link href="/">Home </Link>
@@ -65,9 +65,9 @@ export default function Page() {
                 <Image src={Header3} alt="Group icon" />
                 {/* <img src="./assets/Group.svg" alt="" /> */}
               </div>
-              <div className="text-[#ffffff] font-[700] text-[16px] py-[20px] px-[36px] bg-[#2D9CDB] ">
+              {/* <div className="text-[#ffffff] font-[700] text-[16px] py-[20px] px-[36px] bg-[#2D9CDB] ">
                 <Link href="">Sign up/Sign In</Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -121,9 +121,9 @@ export default function Page() {
                   alt=""
                 /> */}
               </div>
-              <div className="text-[#ffffff] font-[700] text-[14px] py-[15px] px-[20px] bg-[#2D9CDB] ">
+              {/* <div className="text-[#ffffff] font-[700] text-[14px] py-[15px] px-[20px] bg-[#2D9CDB] ">
                 <Link href="">Sign in</Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

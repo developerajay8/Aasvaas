@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Footer from "../../../../public/assets/Logo white (1).png";
+import Footer from "../../../../public/assets/Group 44.png";
 import Footer3 from "../../../../public/assets/indeed.png";
 import Footer4 from "../../../../public/assets/insta.png";
 import Footer5 from "../../../../public/assets/x.png";
@@ -103,13 +103,14 @@ export default function Page() {
             <div className=" flex items-center gap-4 pt-[12px] text-[#E2E2E4] text-[18px] leading-[29px]">
               <Image src={Footer7} alt="vector-icon" className="" />
               {/* <img src="./assets/mail.png" alt="" /> */}
-              support@gojuris.com
+              Info@aasvaa.in
             </div>
             <div className=" flex gap-4 items-center pt-[12px] text-[#E2E2E4] text-start text-[18px] leading-[29px]">
               <Image src={Footer8} alt="vector-icon" className="w-[30px] " />
               {/* <img src="./assets/map.png" alt="" /> */}
-              3rd Floor, BTH Sansthan Path, Malviya Nagar, Jaipur, Rajasthan
-              302017
+              HN-313, Subash Colony
+Shastri Nagar, Jaipur
+Rajasthan – 302016, India
             </div>
 
             <div className="flex max-w-[272px]  mt-[20px] rounded-[4px]  bg-white shadow-md overflow-hidden">
@@ -131,8 +132,8 @@ export default function Page() {
 
       <div className="bg-[#041219] sm:block hidden">
         <footer className=" max-w-[1241px] mx-auto text-white  py-3 px-5 flex justify-between items-center">
-          <p className="text-[14px]">
-            ©️ All Copyright 2025 by Aasvaa Inov. Lab
+          <p className="text-[14px] upprcase">
+            ©️ All Copyright 2025 by Aasvaa Universal PVT LTD
           </p>
           <div className="flex gap-4">
             <Link href="TermsOfUse" className="hover:underline">
